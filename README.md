@@ -5,7 +5,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-blue.svg)](https://expressjs.com/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-orange.svg)](https://ai.google.dev/)
-[![Deployed on Render](https://img.shields.io/badge/Render-Deployed-brightgreen)](https://plum-assignment-cs22b1099.onrender.com)
+
 ## Overview
 
 This comprehensive service extracts and classifies financial amounts from medical documents using a sophisticated 4-step pipeline. It handles various medical billing formats including hospital invoices, pharmacy bills, and diagnostic reports with multi-currency support and robust error handling.
@@ -230,3 +230,27 @@ Body: image file (JPEG, PNG, PDF)
 -  **Step 2**: Normalization with digit error correction
 -  **Step 3**: Context-based amount classification
 -  **Step 4**: Final structured output with source provenance
+
+-  Certainly.
+
+The backend service for the AI-Powered Amount Detection is deployed and live on Render.
+
+You can test the API directly using a tool like Postman. Make a POST request to the following endpoint:
+
+https://plum-assignment-cs22b1099.onrender.com/api/detect-amounts
+
+To test it in Postman:
+
+Set the request type to POST.
+
+Enter the URL above.
+
+Go to the Body tab and select form-data.
+
+In the KEY column, enter image.
+
+In the VALUE column, change the type from "Text" to "File" and then upload a medical bill image (JPEG, PNG, etc.).
+
+Click Send.
+
+You should receive the structured JSON response with the extracted amounts.

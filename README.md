@@ -5,7 +5,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-blue.svg)](https://expressjs.com/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-orange.svg)](https://ai.google.dev/)
-
+[![Deployed on Render](https://img.shields.io/badge/Render-Deployed-brightgreen)](https://plum-assignment-cs22b1099.onrender.com)
 ## Overview
 
 This comprehensive service extracts and classifies financial amounts from medical documents using a sophisticated 4-step pipeline. It handles various medical billing formats including hospital invoices, pharmacy bills, and diagnostic reports with multi-currency support and robust error handling.
